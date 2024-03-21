@@ -1,0 +1,21 @@
+{
+  "name": "email-template-inliner-tool",
+  "version": "1.0.1",
+  "description": "Inlines CSS styles in HTML emails for better email client compatibility.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rorabacherjo/email-template-inliner-tool"
+  },
+  "keywords": ["email", "inliner", "css", "html", "template"],
+  "author": "Onotoly Vernisky",
+  "license": "ISC",
+  "dependencies": {
+    "juice": "^8.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "nodemailer": "^6.7.2"
+  }
+}
